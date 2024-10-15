@@ -36,6 +36,14 @@
       }
     ]
   },
+  "capabilities": {
+      "untrustedWorkspaces": {
+          "supported": true,
+          "requiredFiles": [
+              "scripts/install-windows.ps1"
+          ]
+      }
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
