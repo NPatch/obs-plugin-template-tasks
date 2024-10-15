@@ -31,3 +31,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Removed
  - Removed switches for skipping license and missing repository properties.
+
+## [0.5.2] - 10/15/2024
+
+### Added
+
+ - Added support for running in untrusted workspaces.
+
+### Fixed
+
+ - Fixed bug when trying to execute commands in an empty vscode instance(no workspace or folder open).
