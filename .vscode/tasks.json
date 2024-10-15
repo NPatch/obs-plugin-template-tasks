@@ -7,9 +7,7 @@
             "command": "vsce",
             "args": [
                 "package",
-                "--no-dependencies",
-                "--skip-license",
-                "--allow-missing-repository"
+                "--no-dependencies"
             ],
             "problemMatcher": [],
             "options": {

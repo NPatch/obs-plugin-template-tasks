@@ -8,6 +8,10 @@
     "email": "npatsiouras@gmail.com"
   },
   "version": "0.5.0",
+  "repository": {
+    "url": "https://github.com/NPatch/obs-plugin-template-tasks.git",
+    "type": "github"
+  },
   "engines": {
     "vscode": "^1.94.0"
   },

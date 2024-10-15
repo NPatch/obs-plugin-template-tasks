@@ -24,5 +24,6 @@ None so far.
 
 ## Release Notes
 
+10/15/2024(0.5.1): Added LICENSE, Added repository to package.json, Removed switches for skipping license and missing repository properties.
 10/15/2024(0.5.0): Added the powershell script that does everything, Copy it to `build-aux` if needed and added 3 new commands: `plugtemp.testing`, `plugtemp.archive`, `plugtemp.build-installer`. Removed `plugtemp.helloWorld`
 10/14/2024(0.0.1): Adds a test command that runs a targeted task from .vscode/tasks.json
