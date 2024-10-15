@@ -1,0 +1,51 @@
+{
+  "name": "obs-plugin-template-tasks",
+  "displayName": "obs Plugin Template Tasks",
+  "description": "Creates commands for build and release tasks in an obs plugin template project.",
+  "publisher": "npatch",
+  "author": {
+    "name": "Nikolaos Patsiouras",
+    "email": "npatsiouras@gmail.com"
+  },
+  "version": "0.5.0",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "plugtemp.archive",
+        "title": "PlugTemp: Archive"
+      },
+      {
+        "command": "plugtemp.build-installer",
+        "title": "PlugTemp: Build Installer"
+      },
+      {
+        "command": "plugtemp.testing",
+        "title": "PlugTemp: Testing"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.8",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.94.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.11.1"
+  },
+  "dependencies": {
+    "string-format": "^2.0.0"
+  }
+}
